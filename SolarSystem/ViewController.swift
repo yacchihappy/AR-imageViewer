@@ -111,6 +111,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, GADBannerViewDelegate
         portalNode.runAction(fadeIn)
         //portalNode.
         //portalNod
+        portalNode.
+        let material = SCNMaterial()
+        
         self.sceneView.scene.rootNode.addChildNode(portalNode)
         
         let solarSystem = SolarSystem(x: x, y: y, z: z)
